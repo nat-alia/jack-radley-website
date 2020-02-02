@@ -1,0 +1,19 @@
+.main-links a {
+  color:  darkblue;
+  opacity: .15;
+}
+
+
+
+.main-links a:hover, side-links-a:hover  {
+color: darkblue;
+opacity: 1;
+}
+
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background-color: darkblue;
+  border-radius: 50%;
+}

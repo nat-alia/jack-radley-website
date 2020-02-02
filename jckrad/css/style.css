@@ -1,0 +1,232 @@
+/*uploading of webfonts
+...
+to use, fontfamily: "Authentic Sans";
+weight:"ranges from 400-800"
+**/
+
+@font-face {
+  font-family: Authentic Sans;
+  src: url(authenticsans-150.woff2);
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: Authentic Sans;
+  src: url(authenticsans-130.woff2);
+  font-weight: 700;
+
+}
+
+@font-face {
+  font-family: Authentic Sans;
+  src: url(authenticsans-90.woff);
+  font-weight: 600;
+
+}
+
+@font-face {
+  font-family: Authentic Sans;
+  src: url(authenticsans-60.woff);
+  font-weight: 500;
+
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url(ibmplexmono-regular-latin1.woff);
+  font-weight: 500;
+
+}
+
+
+@keyframes fadein {
+  0% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
+
+/** overarching styling for the whole page **/
+body {
+  font-family: 'Authentic Sans';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.5;
+
+  background-color: #ffffff;
+  width: 100%;
+  letter-spacing: 1px;
+  color: darkblue;
+}
+
+
+/**CURSOR**/
+
+/**disabling normal cursor to enable custom cursor **/
+* {
+  cursor:;
+}
+
+/** custom cursor**/
+.cursor {
+position: absolute;
+width: 30px;
+height: auto;
+border-radius: 100%;
+transform: translate(-50%, -50%);
+
+mix-blend-mode: exclusion;
+left: -100px;
+cursor: none;
+ pointer-events: none;
+  z-index: 500;
+}
+
+/** cursor as text **/
+.cursor h1 {
+  color:  white;
+  font-size: 12px;
+}
+
+
+/**link styling**/
+a {
+	color:  darkblue;
+  text-decoration:  none;
+}
+
+
+h3 {
+    letter-spacing: 1px;
+}
+
+/** the drawing canvas **/
+canvas {
+  position: fixed;
+  z-index: -50;
+
+
+}
+
+
+.main-text {
+  width: 100vw;
+  text-decoration: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 20px;
+
+  color: white;
+  z-index: 20;
+
+  padding-left: 10px;
+  padding-top: 0px;
+}
+
+
+/** navigational links; Jack Radley, Writing, Studio & Curatorial **/
+.main-links a {
+  position: fixed;
+  text-transform: uppercase;
+  font-size: 25px;
+  color: white;
+  letter-spacing: 1.5px;
+  text-decoration: none;
+  z-index: 50;
+
+  padding:  20px;
+}
+
+
+
+/** Side links; resume, contact, play **/
+.side-links a {
+  font-size: 12px;
+  display: inline;
+  text-decoration: none;
+  padding: 20px 10px 0px 5px;
+  color: white;
+
+}
+
+/** container for side links as a group**/
+div.side-links {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  display: flex;
+  writing-mode: vertical-lr;
+  padding-top: 0px;
+  padding-left: 15px;
+  align-items: baseline;
+}
+
+
+/**styling and placement of each individual main link **/
+a.main-text {
+  width: 300px;
+}
+.writing-link {
+  top: 0;
+  right: 0;
+  padding-right: 10px;
+  /*writing-mode:vertical-lr;*/
+}
+
+.studiopractice-link {
+  bottom: 0;
+  left: 0;
+  padding-left: 15px;
+}
+
+a.jack-link {
+  /* font-size: 30px; */
+  /* text-transform: capitalize; */
+}
+
+.curation-link {
+  bottom: 0;
+  right: 0;
+  writing-mode: vertical-lr;
+  padding-bottom: 15px;
+}
+
+/**disallow highlighting **/
+.noselect {
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
+
+a:hover{
+  /* text-shadow: lightblue 0px 0px 10px; */
+  transform: rotate(1deg);
+  opacity: 1;
+
+}
+
+side-links-a:hover {
+  opacity: 1;
+  color: darkblue;
+}
+
+h3:hover, h4:hover {
+  /* text-shadow: lightblue 0px 0px 10px; */
+  transform: rotate(1deg);
+}
+
+
+p {
+  font-size:  14px;
+  font-family: "Authentic Sans-60";
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 600;
+}

@@ -1,0 +1,79 @@
+div.heading-image{
+  background-image: url("img/radleysanta.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: blue;
+  z-index: -5;
+
+}
+
+* {
+  color: darkblue;
+}
+
+.cursor {
+  color: darkblue;
+}
+
+img {
+  height: 300px;
+  width: auto;
+}
+
+
+.main-links a {
+  color: white;
+  opacity: 1;
+  z-index: 5;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  font-size: 45px;
+  width: 100vw;
+  text-transform: uppercase;
+}
+
+.title-b {
+  color: darkblue;
+  top: 50%;
+  font-size: 25px;
+  width: 100vw;
+  padding-top: 110vh;
+  padding-bottom: 20px;
+  font-weight: light;
+    padding-left: 50%;
+}
+
+.info-p {
+  padding-left: 50%;
+  padding-right: 10%;
+
+  color:  darkblue;
+  padding-bottom:  50px;
+}
+
+.side-img {
+  width: 40vw;
+  position: absolute;
+  top: 110vh;
+  padding-left: 20px;
+}
+
+.big-img {
+  width: 100vw;
+  height: auto;
+}
+
+#sidetwo {
+  top: 160vh;
+}

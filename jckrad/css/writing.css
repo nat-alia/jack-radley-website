@@ -1,0 +1,234 @@
+.writing-article .date {
+  text-transform:  uppercase;
+  font-size:  11px;
+}
+
+.writing-article .publication {
+  font-family: monospace; "IBM Plex Mono";
+  font-size:  15px;
+  letter-spacing: 0px;
+}
+
+h3 {
+  font-size: 10px;
+}
+
+.writing-article p {
+  font-size:  14px;
+  font-family: "Authentic Sans-60";
+  line-height: 1.5;
+  letter-spacing: 0;
+  font-weight: 600;
+}
+
+.writing-article .article-title {
+  font-size: 25px;
+  width: 75%;
+  padding-bottom: 5px;
+  font-weight: lighter;
+}
+
+  .writing-article {
+    padding-left: 40%;
+    padding-right: 10%;
+    padding-top: 75px;
+
+    color:  darkblue;
+    padding-bottom:  50px;
+
+  }
+
+  .writing-image img {
+    width:  200px;
+    height:  auto;
+
+    z-index: 2;
+
+  }
+
+  .hide-interview, .hide, .hide-visit {
+    display: none;
+  }
+
+
+  .container-list .list {
+    margin-left:  25px;
+
+  }
+
+  a.back {
+  font-size: 25px;
+  }
+
+
+
+  .container-list {
+    padding-left:  40%;
+    color: darkblue;
+    padding-right: 10%;
+    position:  absolute;
+    padding-top: 70px;
+    font-weight: 400;
+
+  }
+
+  .container-list h2, a.showmore {
+    font-size: 15px;
+    /* text-align: left; */
+    /*border-bottom:1px solid darkblue;*/
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 0%;
+    text-transform: ;
+
+  }
+
+  .container-list h2 {
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+
+a.showmore, a.showless {
+      text-transform: capitalize;
+      text-align: right;
+      font-weight: 600;
+      font-size: 13px;
+      letter-spacing: 0;
+  }
+
+.showbutton {
+  position: absolute;
+  right: 0;
+
+
+}
+
+.list {
+  position: relative;
+}
+
+  a.showmore {
+   right: 100px;
+   width: inherit;
+   padding-top: 0px;
+   padding-right: 25px;
+  }
+
+  a.showless {
+    right: 0px;
+    width: 50vw;
+    padding-top: 0px;
+
+
+  }
+
+.category {
+  padding-bottom: 50px;
+}
+
+  h3 {
+    font-size:  20px;
+    padding-bottom:  20px;
+    line-height:  1;
+    padding: 10px;
+    margin: -10px;
+    margin-bottom: 20px;
+    z-index: 10;
+  }
+
+  h2 {
+    font-size: 25px;
+  }
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+
+  .main-links a {
+    color:  darkblue;
+    opacity: .15;
+  }
+  .main-links a:hover {
+    color: darkblue;
+    opacity: 1;
+  }
+
+/**which active link are we on**/
+  #jack-link, #writing-link {
+    opacity:1;
+  }
+
+
+.cursor {
+  width: 20px;
+  height: 20px;
+  background-color: darkblue;
+  border-radius: 50%;
+}
+
+.caption {
+  font-family: monospace;
+  font-size: 9px;
+  color: darkblue;
+  padding-top: 10px;
+  line-height: 11px;
+  letter-spacing: 0px;
+  width: 500px;
+  color: gray;
+}
+
+
+h3:hover, a:hover {
+  /* text-shadow: lightblue 0px 0px 10px; */
+  transform: rotate(1deg);
+}
+
+.imagecaption-container{
+  /* position: absolute;
+  left: 20px;
+  width: 30vw;
+
+  margin-bottom: 50px; */
+
+}
+
+.img-list {
+  visibility: hidden;
+  position: fixed;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+  width: 400px;
+  z-index: -5;
+  height: auto;
+}
+
+
+.list a h3:hover + .img-list{
+visibility: visible;
+
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {...}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {...}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {...}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {...}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {...}
+
+@media only screen and (orientation: landscape) {
+  body {
+    /* background-color: lightblue; */
+  }
+}

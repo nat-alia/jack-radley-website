@@ -1,0 +1,92 @@
+img {
+  width: 25vw;
+  width: auto;
+}
+
+
+.vertical-img img {
+  width: 20vw;
+  height: auto;
+}
+
+.img-group {
+}
+
+.caption, a.caption {
+  text-align: center;
+  font-weight: ;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
+
+div.images {
+  display: grid;
+  grid-template-columns: repeat(10, 10vw [col-start]);
+  grid-template-rows: repeat(26, 10vh [row-start]);
+}
+
+img:hover {
+  transform: rotate(1deg);
+}
+
+div.images div {
+  justify-self: start;
+}
+
+
+.dr-g{
+  grid-column: 2 / span 3;
+  grid-row: 3 / span 2;
+}
+
+.bts-g{
+  grid-column: 8 / span 3;
+  grid-row: 5 / span 2;
+}
+
+.hsc-g{
+  grid-column: 5 / span 3;
+  grid-row: 8 / span 2;
+}
+
+.u-g{
+  grid-column: 2 / span 2;
+  grid-row: 12 / span 4;
+}
+
+.tdbl-g{
+  grid-column: 8 / span 3;
+  grid-row: 15 / span 4;
+}
+
+.a2ss-g{
+  grid-column: 5 / span 2;
+  grid-row: 18 / span 4;
+}
+
+.glbh-g{
+  grid-column: 8 / span 2;
+  grid-row: 20 / span 4;
+}
+
+.iC-g{
+  grid-column: 2 / span 2;
+  grid-row: 23 / span 4;
+}
+
+.d-g{
+  grid-column: 7 / span 2;
+  grid-row: 24 / span 4;
+}
+
+.caption {
+  padding-top: 20px;
+}
+
+h5 {
+  font-weight: ;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0;
+}
